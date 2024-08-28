@@ -1,0 +1,10 @@
+{
+    "name": "vendor/checkout-module",
+    "description": "A checkout module for Laravel",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Checkout\\": "Modules/Checkout/"
+        }
+    },
+    "require": {}
+}
