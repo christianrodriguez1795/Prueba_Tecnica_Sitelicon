@@ -57,7 +57,7 @@ class CheckoutController extends Controller
         // que se efectue el pago correspondiente para efectuar el pago.
         // Dado que es una simuacion solo devolveremos pagado si el amount es 
         // mayor a 0 y fallido si es menor a cero peor dejare la logica de la peticion real.
-        return $amount > 0 ? 'pagado' : 'fallido';
+        return $amount > 0 ? 'pagado' : 'fallido';// Descomentar esta linea en caso de quere hacer una prueba real
 
         //Este seria una ejemplo de como hacer la peticion a la api de stripe
 
